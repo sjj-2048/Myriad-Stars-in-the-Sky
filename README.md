@@ -1,6 +1,6 @@
 # MyriadStar (中心化阶段)
 
-“Be Your Star. Shine Your Expertise.” —— MyriadStar 旨在让每位用户拥有一颗可成长、可验证的智星，通过持续反馈与强化学习不断提升专业光芒。
+“Be Your Star. Shine Your Expertise.” 
 
 ## 当前内容
 
