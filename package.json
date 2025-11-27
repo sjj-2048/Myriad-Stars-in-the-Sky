@@ -1,0 +1,9 @@
+{
+  "name": "mystar",
+  "private": true,
+  "workspaces": ["apps/web", "apps/mobile", "packages/shared"],
+  "scripts": {
+    "dev:web": "pnpm --filter mystar-web dev",
+    "dev:mobile": "pnpm --filter mystar-mobile start"
+  }
+}

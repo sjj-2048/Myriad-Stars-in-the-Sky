@@ -1,0 +1,20 @@
+[project]
+name = "mystar-api"
+version = "0.1.0"
+description = "MyriadStar API 服务 (FastAPI + Strawberry GraphQL)"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "strawberry-graphql[fastapi]>=0.233.0",
+    "pydantic-settings>=2.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+]
+
+[tool.uv]
+package = true
