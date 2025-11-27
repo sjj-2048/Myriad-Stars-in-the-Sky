@@ -7,9 +7,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mystar/shared": "workspace:*",
+    "graphql": "^16.9.0",
     "next": "15.0.0-canary.67",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "urql": "^4.1.0"
   },
   "devDependencies": {
     "typescript": "5.6.3"

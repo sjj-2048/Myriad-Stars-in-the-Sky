@@ -1,9 +1,17 @@
 {
   "name": "mystar",
   "private": true,
-  "workspaces": ["apps/web", "apps/mobile", "packages/shared"],
+  "workspaces": [
+    "apps/web",
+    "apps/mobile",
+    "packages/shared"
+  ],
   "scripts": {
     "dev:web": "pnpm --filter mystar-web dev",
     "dev:mobile": "pnpm --filter mystar-mobile start"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3"
   }
 }
